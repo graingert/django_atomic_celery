@@ -8,8 +8,7 @@ Don't Use This Library
 ----------------------
 
 This library uses `django-atomic-signals`_. Unfortunately this is not a great way of achieving "don't run this code
-until the transaction commits" any more. There is plenty of extra description on `django-atomic-signals' README
-<django-atomic-signals>`_, and also on the similar library `django-transaction-signals`_, by Django core developer
+until the transaction commits" any more. There is plenty of extra description on the `django-atomic-signals`_ README, and also on the similar library `django-transaction-signals`_, by Django core developer
 Aymeric.
 
 .. _django-atomic-signals: https://github.com/adamchainz/django_atomic_signals
